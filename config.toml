@@ -12,7 +12,7 @@ publishDir            = "public"					# 站点静态文件保存目录
     author        = "shenweiyan"
     description   = "网址导航"
     upload        = "https://www.yuque.com/forms/share/1a1fee15-f7a9-4ee6-9dd4-b0ba9fef1871"  # 左侧导航栏的"网站提交"
-    about         = "https://xbourn.github.io/nav"	# 左侧导航栏的"关于导航"页面(./about)
+    about         = "http://nav.zdtjd.com"	# 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/xbourn/nav"  
     enablePreLoad = true					# 网站完全打开前预加载动画
     textPreLoad   = "Hugo 网址导航主题"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
@@ -23,14 +23,15 @@ publishDir            = "public"					# 站点静态文件保存目录
     yiyan         = true                         		# 默认启用一言服务
 
 [params.seo]    
-    baiduhmid       = 'efccc04cb44fc49faddac5876180b369'	# 百度统计 hm.src 的 ID
-    baiduSiteVer    = 'codeva-cCAOSG8MBO'			# 百度HTML标签验证(baidu-site-verification)
+    baiduhmid       = 'aa9c40a79aa67f0d33911ce9fe992516'	# 百度统计 hm.src 的 ID efccc04cb44fc49faddac5876180b369
+    baiduSiteVer    = 'codeva-pISY1x0YkY'			# 百度HTML标签验证(baidu-site-verification) codeva-cCAOSG8MBO
     tj51laid        = ''                        		# 51.LA 网站统计
     tj51lack        = ''
     GoogleAdsClient = ''					# Google AdSense 
 
 [params.qweather]
-    key = "085791e805a24491b43b06cf58ab31e7"
+    key = "bf5c51d94d7e4f9a8138a769819112d9" # 085791e805a24491b43b06cf58ab31e7
+
 
 [params.images]
     favicon           = "assets/images/favicon.png"
@@ -45,4 +46,4 @@ publishDir            = "public"					# 站点静态文件保存目录
     unsafe = true
 
 [params.footer]
-    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：shumlab@foxmail.com <br/>&copy; 2021 - {year} By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)  | [粤ICP备16023717号](http://beian.miit.gov.cn/)<br/>'
+    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：admin@zdtjd.com <br/>&copy; 2021 - {year} By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)  | [浙ICP备13007303号-1](http://beian.miit.gov.cn/)<br/>'
